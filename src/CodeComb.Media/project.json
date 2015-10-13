@@ -1,0 +1,22 @@
+﻿{
+  "title": "CodeComb.Media",
+  "version": "2.0.0-beta8",
+  "description": "ASP.Net vNext Media Library",
+  "copyright": "Harbin Code Comb Technology Co.,Ltd",
+  "authors": [ "AmamiyaYuuko" ],
+  "tags": [ "Ffmpeg" ,"vNext", "ASP.Net", "MVC" ],
+  "iconUrl": "http://www.1234.sh/images/logo.png",
+  "projectUrl": "https://github.com/CodeComb/Media",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "CodeComb.Package": "2.0.0-beta8"
+  },
+
+  "frameworks": {
+    "net45": { },
+    "net46": { },
+    "dnx451": { },
+    "dnxcore50": { }
+  }
+}

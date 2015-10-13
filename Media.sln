@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4AFE422-AD08-4AA9-8697-C9529F210162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9214C518-468C-47E4-82A6-5E5764EA25B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{B9FCCAEF-EFE0-45A1-93BE-135DFC7F0881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6736438B-104A-40B6-A685-2271E88B4A16}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+		appveyor.yml = appveyor.yml
+		build.cmd = build.cmd
+		build.sh = build.sh
+		global.json = global.json
+		LICENSE = LICENSE
+		makefile.shade = makefile.shade
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CodeComb.Media", "src\CodeComb.Media\CodeComb.Media.xproj", "{F1C61173-D6EA-4173-86C4-31DE0849B3C8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CodeComb.Media.Sample", "samples\CodeComb.Media.Sample\CodeComb.Media.Sample.xproj", "{A329D507-1ACC-4521-A186-583D594BEAC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1C61173-D6EA-4173-86C4-31DE0849B3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C61173-D6EA-4173-86C4-31DE0849B3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C61173-D6EA-4173-86C4-31DE0849B3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C61173-D6EA-4173-86C4-31DE0849B3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A329D507-1ACC-4521-A186-583D594BEAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A329D507-1ACC-4521-A186-583D594BEAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A329D507-1ACC-4521-A186-583D594BEAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A329D507-1ACC-4521-A186-583D594BEAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1C61173-D6EA-4173-86C4-31DE0849B3C8} = {C4AFE422-AD08-4AA9-8697-C9529F210162}
+		{A329D507-1ACC-4521-A186-583D594BEAC2} = {B9FCCAEF-EFE0-45A1-93BE-135DFC7F0881}
+	EndGlobalSection
+EndGlobal
