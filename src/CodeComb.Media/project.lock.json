@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     ".NETFramework,Version=v4.5": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -22,7 +22,7 @@
       }
     },
     ".NETFramework,Version=v4.6": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -41,7 +41,7 @@
       }
     },
     "DNX,Version=v4.5.1": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "dependencies": {
           "Microsoft.Dnx.Runtime": "1.0.0-rc1-15879",
@@ -368,7 +368,7 @@
       }
     },
     "DNXCore,Version=v5.0": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23225",
@@ -1533,7 +1533,7 @@
       }
     },
     ".NETFramework,Version=v4.5/win7-x86": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1552,7 +1552,7 @@
       }
     },
     ".NETFramework,Version=v4.5/win7-x64": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1571,7 +1571,7 @@
       }
     },
     ".NETFramework,Version=v4.6/win7-x86": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1590,7 +1590,7 @@
       }
     },
     ".NETFramework,Version=v4.6/win7-x64": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1609,7 +1609,7 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "dependencies": {
           "Microsoft.Dnx.Runtime": "1.0.0-rc1-15879",
@@ -1936,7 +1936,7 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "dependencies": {
           "Microsoft.Dnx.Runtime": "1.0.0-rc1-15879",
@@ -2263,7 +2263,7 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23225",
@@ -3531,7 +3531,7 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x64": {
-      "CodeComb.Package/2.0.0-t151013114133": {
+      "CodeComb.Package/2.0.0-t151013122943": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23225",
@@ -4800,12 +4800,12 @@
     }
   },
   "libraries": {
-    "CodeComb.Package/2.0.0-t151013114133": {
+    "CodeComb.Package/2.0.0-t151013122943": {
       "type": "package",
-      "sha512": "VpfdjbNWZg1N1kZSy7VYDYTBuvsof6r+okd2JMIRT45y+MQGhRoO9B7uxP9uypRgKZDMocQ8UED2b5golrtEHQ==",
+      "sha512": "GCwza1T42aFd1jg5ZdjpgTqUbW0/jKeYwv6FbMXvwdjDvZhXq+c1TOLwjQGPaoUcobwD+knDcHIeUUXmXDt6dA==",
       "files": [
-        "CodeComb.Package.2.0.0-t151013114133.nupkg",
-        "CodeComb.Package.2.0.0-t151013114133.nupkg.sha512",
+        "CodeComb.Package.2.0.0-t151013122943.nupkg",
+        "CodeComb.Package.2.0.0-t151013122943.nupkg.sha512",
         "CodeComb.Package.nuspec",
         "lib/dnx451/CodeComb.Package.dll",
         "lib/dnx451/CodeComb.Package.xml",

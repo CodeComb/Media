@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Diagnostics;
 using System.Reflection;
 #if DNX451 || DNXCORE50
 using Microsoft.Extensions.DependencyInjection;
@@ -57,6 +58,18 @@ namespace CodeComb
                     Download.DownloadAndExtract("https://github.com/CodeCombResources/Ffmpeg/archive/linux.zip",
                         Tuple.Create("Ffmpeg-linux/ffmpeg", FfmpegPath)).Wait();
                 }
+            }
+            if (OS.Current != OSType.Windows)
+            {
+                Process p = new Process();
+                p.StartInfo = new ProcessStartInfo
+                {
+                    UseShellExecute = false,
+                    FileName = "chmod",
+                    Arguments = "u+x " + TmpPath
+                };
+                p.Start();
+                p.WaitForExit();
             }
         }
 

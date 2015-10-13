@@ -9,8 +9,8 @@ namespace CodeComb.Media.Sample
     {
         public void Main(string[] args)
         {
-            var media = new Video("C:\\test\\test.flv");
-            media.Convert(".mp4", Quality.Smallest).SaveAs(@"C:\\test\\csh.mp4");
+            var media = new Video("/Users/Yuuko/Downloads/test.flv");
+            media.Convert(".mp4", Quality.Smallest).SaveAs(@"/Users/Yuuko/Downloads/test.mp4");
         }
     }
 }
