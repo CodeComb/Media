@@ -7,7 +7,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Reflection;
 #if DNX451 || DNXCORE50
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Framework.DependencyInjection;
 using Microsoft.Dnx.Runtime;
 using Microsoft.Dnx.Runtime.Infrastructure;
 #endif
