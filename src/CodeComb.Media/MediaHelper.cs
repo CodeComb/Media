@@ -11,6 +11,7 @@ using Microsoft.Dnx.Runtime;
 using Microsoft.Dnx.Runtime.Infrastructure;
 #endif
 using System.Runtime.InteropServices;
+using CodeComb.Package;
 using CodeComb.Media;
 
 namespace CodeComb
@@ -30,21 +31,21 @@ namespace CodeComb
         {
             var TmpPath = Path.GetTempPath();
 
-            if (DetectOS.CurrentOS == OS.Windows)
+            if (OS.Current == OSType.Windows)
             {
                 FfmpegPath = TmpPath + @"ffmpeg.exe";
                 if (!File.Exists(FfmpegPath))
                 {
-                    Downloader.DownloadAndExtract("https://github.com/CodeCombResources/Ffmpeg/archive/windows.zip",
+                    Download.DownloadAndExtract("https://github.com/CodeCombResources/Ffmpeg/archive/windows.zip",
                         Tuple.Create("Ffmpeg-windows/ffmpeg.exe", FfmpegPath)).Wait();
                 }
             }
-            else if (DetectOS.CurrentOS == OS.OSX)
+            else if (OS.Current == OSType.OSX)
             {
                 FfmpegPath = TmpPath + @"ffmpeg";
                 if (!File.Exists(FfmpegPath))
                 {
-                    Downloader.DownloadAndExtract("https://github.com/CodeCombResources/Ffmpeg/archive/osx.zip",
+                    Download.DownloadAndExtract("https://github.com/CodeCombResources/Ffmpeg/archive/osx.zip",
                         Tuple.Create("Ffmpeg-osx/ffmpeg", FfmpegPath)).Wait();
                 }
             }
@@ -53,7 +54,7 @@ namespace CodeComb
                 FfmpegPath = TmpPath + @"ffmpeg";
                 if (!File.Exists(FfmpegPath))
                 {
-                    Downloader.DownloadAndExtract("https://github.com/CodeCombResources/Ffmpeg/archive/linux.zip",
+                    Download.DownloadAndExtract("https://github.com/CodeCombResources/Ffmpeg/archive/linux.zip",
                         Tuple.Create("Ffmpeg-linux/ffmpeg", FfmpegPath)).Wait();
                 }
             }
