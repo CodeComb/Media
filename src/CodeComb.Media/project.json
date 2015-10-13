@@ -1,0 +1,54 @@
+﻿{
+  "title": "CodeComb.Media",
+  "version": "2.0.0-*",
+  "description": "ASP.Net vNext Media Library",
+  "copyright": "Harbin Code Comb Technology Co.,Ltd",
+  "authors": [ "AmamiyaYuuko" ],
+  "tags": [ "Ffmpeg" ,"vNext", "ASP.Net", "MVC" ],
+  "iconUrl": "http://www.1234.sh/images/logo.png",
+  "projectUrl": "https://github.com/CodeComb/Media",
+  "licenseUrl": "",
+
+  "dependencies": {
+  },
+
+  "frameworks": {
+    "net45": {
+      "frameworkAssemblies": {
+        "System.IO.Compression": "4.0.0.0",
+        "System.Net.Http": "4.0.0.0"
+      }
+    },
+    "net46": {
+      "frameworkAssemblies": {
+        "System.IO.Compression": "4.0.0.0",
+        "System.Net.Http": "4.0.0.0"
+      }
+    },
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.Extensions.DependencyInjection": "1.0.0-*",
+        "Microsoft.Dnx.Runtime": "1.0.0-*"
+      },
+      "frameworkAssemblies": {
+        "System.IO.Compression": "4.0.0.0",
+        "System.Net.Http": "4.0.0.0"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23225",
+        "System.Collections": "4.0.11-beta-23225",
+        "System.Linq": "4.0.1-beta-23225",
+        "System.Runtime": "4.0.21-beta-23225",
+        "System.Threading": "4.0.11-beta-23225",
+        "System.Diagnostics.Process": "4.0.0-beta-23225",
+        "System.IO.Compression": "4.0.1-beta-23225",
+        "System.Net.Http": "4.0.1-beta-23225",
+        "System.Runtime.InteropServices.RuntimeInformation": "4.0.0-beta-23225",
+        "Microsoft.Extensions.DependencyInjection": "1.0.0-*",
+        "Microsoft.Dnx.Runtime": "1.0.0-*"
+      }
+    }
+  }
+}
