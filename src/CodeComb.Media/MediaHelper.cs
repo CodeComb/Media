@@ -66,10 +66,13 @@ namespace CodeComb
                 {
                     UseShellExecute = false,
                     FileName = "chmod",
-                    Arguments = "u+x " + TmpPath
+                    Arguments = "u+x \"" + FfmpegPath + "\"",
+                    RedirectStandardError = true
                 };
+                Console.WriteLine("chmoding");
                 p.Start();
                 p.WaitForExit();
+                Console.WriteLine(p.StandardError.ReadToEnd());
             }
         }
 
