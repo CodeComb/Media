@@ -12,5 +12,5 @@ It is easy to convert a video or image format:
 
 ```
 var media = new Video("C:\\test\\test.flv");
-media.Convert(".mp4", Quality.Smallest).SaveAs(@"C:\\test\\test.mp4");
+media.Convert(".mp4", Quality.Smallest).SaveAs("C:\\test\\test.mp4");
 ```
