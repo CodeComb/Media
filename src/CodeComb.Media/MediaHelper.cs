@@ -329,11 +329,15 @@ namespace CodeComb
                         var tmp3 = tmp2[i].Split(',');
                         foreach (var s in tmp3)
                         {
-                            if (s.IndexOf("SAR") >= 0)
+                            if (s.IndexOf("x") >= 0)
                             {
-                                var ss = s.Trim(' ');
-                                ret.Width = Convert.ToInt32(ss.Split(' ')[0].Split('x')[0]);
-                                ret.Height = Convert.ToInt32(ss.Split(' ')[0].Split('x')[1]);
+                                try
+                                {
+                                    var ss = s.Trim(' ');
+                                    ret.Width = Convert.ToInt32(ss.Split(' ')[0].Split('x')[0]);
+                                    ret.Height = Convert.ToInt32(ss.Split(' ')[0].Split('x')[1]);
+                                }
+                                catch { }
                             }
                         }
                     }
