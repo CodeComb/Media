@@ -24,7 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CodeComb.Media", "src\CodeComb.Media\CodeComb.Media.xproj", "{F1C61173-D6EA-4173-86C4-31DE0849B3C8}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CodeComb.Media.Sample", "CodeComb.Media.Sample\CodeComb.Media.Sample.xproj", "{EF1AA62F-C37F-4524-A25A-5889A51E1040}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CodeComb.Media.Sample", "samples\CodeComb.Media.Sample\CodeComb.Media.Sample.xproj", "{8951CF0D-FE4E-4512-BAFE-E2527144DF00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,16 +36,16 @@ Global
 		{F1C61173-D6EA-4173-86C4-31DE0849B3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1C61173-D6EA-4173-86C4-31DE0849B3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1C61173-D6EA-4173-86C4-31DE0849B3C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF1AA62F-C37F-4524-A25A-5889A51E1040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF1AA62F-C37F-4524-A25A-5889A51E1040}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF1AA62F-C37F-4524-A25A-5889A51E1040}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF1AA62F-C37F-4524-A25A-5889A51E1040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8951CF0D-FE4E-4512-BAFE-E2527144DF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8951CF0D-FE4E-4512-BAFE-E2527144DF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8951CF0D-FE4E-4512-BAFE-E2527144DF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8951CF0D-FE4E-4512-BAFE-E2527144DF00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F1C61173-D6EA-4173-86C4-31DE0849B3C8} = {C4AFE422-AD08-4AA9-8697-C9529F210162}
-		{EF1AA62F-C37F-4524-A25A-5889A51E1040} = {B9FCCAEF-EFE0-45A1-93BE-135DFC7F0881}
+		{8951CF0D-FE4E-4512-BAFE-E2527144DF00} = {B9FCCAEF-EFE0-45A1-93BE-135DFC7F0881}
 	EndGlobalSection
 EndGlobal
