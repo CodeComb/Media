@@ -7,7 +7,7 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "CodeComb.Media": "2.0.0-*"
+    "CodeComb.Media": "2.0.0-beta8"
   },
 
   "commands": {

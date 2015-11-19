@@ -1,6 +1,6 @@
 ﻿{
   "title": "CodeComb.Media",
-  "version": "2.0.0-*",
+  "version": "2.0.0-rc1-final",
   "description": "ASP.Net vNext Media Library",
   "copyright": "Harbin Code Comb Technology Co.,Ltd",
   "authors": [ "AmamiyaYuuko" ],
@@ -10,12 +10,10 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "CodeComb.Package": "2.0.0-*"
+    "CodeComb.Package": "2.0.0-rc1-final"
   },
 
   "frameworks": {
-    "net45": { },
-    "net46": { },
     "net451": { },
     "dotnet5.4": { }
   }
